@@ -1,0 +1,98 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body class="vertical">
+        <fieldset >
+            <legend> <strong>ETAT CIVIL</strong></legend>
+            
+            <div class="align"> 
+
+                <label for="nom">Nom</label>
+                <input type="text" name="nom">
+
+                <label for="prenom">Prenom</label>
+                <input type="text" id="prenom" name="prenom">
+
+                <label for="naissance">Date de naissance</label>
+                <input type="date" id="naissance" name="naissance">
+                
+            </div>
+        
+        
+
+       
+
+            <div class="align">
+
+                
+
+                <label for="email">E-mail</label> 
+                <input type="email" id="email" name="email">
+
+                <label for="num">Numero</label> 
+                <input type="tel" id="num" name="num">
+            
+                <label for="lieu">Lieu de Naissance</label>
+                <input type="lieu" id="lieu" name="lieu">
+            </div> 
+          
+           
+        </fieldset>
+        
+       <fieldset>
+            <legend><strong>INFO</strong></legend>
+            <div class="align">
+
+                <p>Sex 
+                    <select name="sex" id="sex">
+                        <option value="masculin">MASCULIN</option>
+                       <option value="feminin">FEMININ</option>
+                    </SElect>
+                </p>
+    
+                <P>origin<select name="origin" id="origin">
+                    <option value="BENIN">BENIN</option>
+                   <option value="FRANCE">FRANCE</option>
+                   <option value="TOGO">TOGO</option></select>
+                </P>
+                
+            </div>
+
+        </fieldset>
+
+        <fieldset>
+            <legend><strong>ADRESSE</strong></legend>
+            <input style="width: 50%;height: 15%;" type="text" id="adresse" name="adresse" >
+        </fieldset>
+        
+        <fieldset>
+            <legend><strong>DIPLOME</strong></legend>
+
+            <input type="radio" name="diplome" value="cep">
+            <label for="cep">CEP</label>
+
+            <input type="radio" name="diplome" value="bepc">
+            <label for="BEPC">BEPC</label>
+
+            <input type="radio" name="diplome" value="bac">
+            <label for="bac">BAC</label>
+
+            <input type="radio" name="diplome" value="licence">
+            <label for="licence">LICENCE</label>
+
+            <input type="radio" name="diplome" value="master">
+            <label for="master">MASTER</label>
+
+        </fieldset>
+
+        <fieldset>
+            <legend><strong>ACTION</strong></legend>
+            <div class="align"></div>
+            <button type="reset">EFFACER</button>
+            <button type="button" onclick="window.close()">QUITTER</button>
+            <button type="submit" >ENVOYER </button>
+           
+        </fieldset>
+    </body>
+</html>
